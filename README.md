@@ -23,12 +23,12 @@ chmod +x ./kind
 sudo mv ./kind /usr/local/bin/kind 
 ```
 
->  [ ]  kind create cluster
+<input type="checkbox"> kind create cluster
 ```shell
  --config Meu-primeiro-cluester.yaml --name my-cluster
 ```
 
-> [ ] kubectl apply -f your-pod.yaml
+<input type="checkbox"> kubectl apply -f your-pod.yaml
 ```shell
 kubectl apply -f your-pod.yaml
 ```
@@ -40,3 +40,4 @@ Certifique-se de substituir `Meu-primeiro-cluester.yaml` e `your-pod.yaml` pelos
 ##
 
 - day 1-  created podes.yaml files, and the use of basic commands, installation of kind
+
