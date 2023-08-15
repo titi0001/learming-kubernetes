@@ -25,7 +25,7 @@ sudo mv ./kind /usr/local/bin/kind
 
 <input type="checkbox"> kind create cluster
 ```shell
- --config Meu-primeiro-cluester.yaml --name my-cluster
+kind create cluster --config Meu-primeiro-cluester.yaml --name my-cluster
 ```
 
 <input type="checkbox"> kubectl apply -f your-pod.yaml
